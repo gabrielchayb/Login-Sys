@@ -10,7 +10,7 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, log
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Thisissupposedtobesecret!'
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///database.db" #your path to database
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:////mnt/c/Users/gabri/OneDrive/Área de Trabalho/real-login-sys/Login-sys/database.db" #your path to database
 bootstrap = Bootstrap(app)
 db = SQLAlchemy(app)
 login_manager = LoginManager()
